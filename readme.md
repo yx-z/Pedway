@@ -1,3 +1,5 @@
+SEE project_documentation.pdf for more details.
+
 # Chicago's Pedway Project
 This project aims to create a mobile app and backend for a complete pedway navigation and exploration experience
 
