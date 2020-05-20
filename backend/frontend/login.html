@@ -1,0 +1,99 @@
+<head>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="526092300621-j8ki44lp0fpnb5da2s3c3iqu33fde3tk.apps.googleusercontent.com">
+<script>
+
+/**
+* Handles signup condition
+* @param {Object} profile the profile object which contains information on the user
+*/
+function signUp(profile) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', '/api/user');
+  xhr.setRequestHeader('Content-Type', 'application/json');
+
+  console.log("Signup start");
+
+  xhr.onload = function() {
+    console.log("Signup:", xhr.responseText);
+    if (xhr.status < 300) {
+      var response = JSON.parse(xhr.responseText);
+      console.log("Signup:", response);
+      signOut();
+      alert("New User created for " + profile.getEmail() + " please log in again");
+    } else {
+      signOut();
+      alert("Failed to signup:" + xhr.responseText);
+    }
+  }
+  xhr.send(JSON.stringify({
+    email: profile.getEmail(),
+    name: profile.getName(),
+    userId: profile.getId()
+  }));
+}
+
+/**
+* Makes the request to backend to create new session
+*
+* @param {Object} profile the profile object which contains information on the user
+* @param {String} id_token the token from google that ensures user authenticity
+*/
+function signIn(profile, id_token) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('POST', '/api/auth');
+  xhr.setRequestHeader('Content-Type', 'application/json');
+
+  xhr.send(JSON.stringify({idtoken: id_token}));
+
+  xhr.onload = function() {
+    if (xhr.status < 300) {
+      var response = JSON.parse(xhr.responseText);
+      console.log('Signed in as: ', response);
+
+      // Set cookies
+      document.cookie = "sessionId = " + response.sessionId + ";";
+      document.cookie = "userId = " + response.userId + ";";
+      signOut();
+      document.location.href = "/admin.html";
+    } else {
+      if (xhr.responseText.startsWith('No valid user exists for')) {
+        // Handle signup case
+        signUp(profile);
+      } else {
+        signOut();
+        alert("Failed to login:" + xhr.responseText);
+      }
+    }
+  };
+}
+
+/**
+* When a signin event occurs, extract and print the nessesary information
+*
+* @param {Object} googleUser the user object google provides
+*/
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId());
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+
+  var id_token = googleUser.getAuthResponse().id_token;
+  signIn(profile, id_token);
+}
+
+/**
+* Handles signout
+*/
+function signOut() {
+  var auth2 = gapi.auth2.getAuthInstance();
+  auth2.signOut().then(function () {
+    console.log('User signed out.');
+  });
+}
+</script>
+</head>
+
+<div class="g-signin2" data-onsuccess="onSignIn"></div>

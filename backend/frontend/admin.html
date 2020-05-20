@@ -1,0 +1,142 @@
+<head>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="526092300621-j8ki44lp0fpnb5da2s3c3iqu33fde3tk.apps.googleusercontent.com">
+<script type="text/javascript">
+
+/**
+* Handles updating the user details displayed to the user
+*/
+function getUserDetails() {
+  console.log("UD")
+  var xhr = new XMLHttpRequest();
+  // Searches cookies for a substring that matches for userId=X and returns X
+  var userId = document.cookie.replace(/(?:(?:^|.*;\s*)userId\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+
+  xhr.open('GET', '/api/user/'+userId);
+
+  xhr.onload = function() {
+    if (xhr.status < 300) {
+      var response = JSON.parse(xhr.responseText);
+      $("#email").text(response.email);
+      $("#permission").text(response.permission);
+      $("#name").text(response.name);
+    } else if (xhr.status == 401) {
+      console.log("Not loggedin");
+      signOut();
+    } else {
+      alert("Error:" + xhr.responseText);
+    }
+  }
+  xhr.send();
+}
+getUserDetails();
+
+/**
+* Notifies the backend that this current session must be dropped
+*   and redirects the users page to login
+*/
+function signOut() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('DELETE', '/api/auth/');
+  xhr.setRequestHeader('Content-Type', 'application/json');
+
+  xhr.send();
+  xhr.onload = function() {
+    document.location.href = "/login.html";
+  }
+}
+
+/**
+* Makes an API request to update the status for some entrance
+*
+* @param {Object} e the object passed into this function from the onsubmit listener
+*
+* @note this function must return false to prevent page reload
+*/
+function updateEntrance(e) {
+  $.ajax({
+    url: "/api/pedway/entrance/" + $("#entranceId").val(),
+    type: "POST",
+    data: {
+      status: $("#status").val()
+    },
+    complete: function(xhr, msg) {
+      if (xhr.status < 300 && xhr.responseText !== "null") {
+        var response = JSON.parse(xhr.responseText);
+        $("#successNotify").show();
+        getEntrances();
+        // Wait for 3 seconds
+        new Promise(resolve=>setTimeout(resolve, 3000))
+          .then(()=>{
+            $("#successNotify").hide();
+        });
+      } else {
+        alert("FAILED: " + xhr.responseText);
+        console.log(xhr.responseText);
+      }
+    }
+  });
+  return false;
+};
+
+/**
+* Updates the display of entrance information
+*    for the user to search through
+*/
+function getEntrances() {
+  $.ajax({
+    url: "/api/pedway/entrance",
+    type: "GET",
+    complete: function(xhr, msg) {
+      if (xhr.status < 300) {
+        var response = JSON.parse(xhr.responseText);
+        console.log(JSON.stringify(response, null, 2));
+        $("#entrances").val(JSON.stringify(response, null, 2));
+      } else {
+        alert("FAILED: " + xhr.responseText);
+        console.log(xhr.responseText);
+      }
+    }
+  })
+}
+
+getEntrances();
+</script>
+</head>
+
+<div class="topnav">
+  <div class="active" href="#">Status</a>
+  <!--<a href="/feedback.html">Feedback</a>-->
+  <a href="#" onclick="signOut();">Sign out</a>
+</div>
+<table border="0" style="font-size: small">
+  <tr>
+    <th>Email</th>
+    <th>Permission</th>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <th id="email"></th>
+    <th id="permission">Permission</th>
+    <th id="name">Name</th>
+  </tr>
+</table>
+<h2>Update Entrance</h2>
+<form onsubmit="return updateEntrance()">
+  Submit
+  <input type="text" name="id" id="entranceId"/>
+  <select name="status" id="status">
+    <option value="open" selected>open</option>
+    <option value="closed">closed</option>
+    <option value="dirty">dirty</option>
+    <option value="closing">closing</option>
+  </select>
+  <button>Submit</button>
+  <div id="successNotify" style="color:green;" hidden>
+    Success
+  </div>
+</form>
+<h2>Entrances</h2>
+<textarea id="entrances" style="width:90%;height:200px">
+</textarea>

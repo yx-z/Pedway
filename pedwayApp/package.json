@@ -1,0 +1,82 @@
+{
+  "name": "ReactNativeTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "gulp lint"
+  },
+  "dependencies": {
+    "@turf/distance": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
+    "@turf/point-to-line-distance": "^6.0.0",
+    "@turf/turf": "^5.1.6",
+    "appcenter": "1.12.0",
+    "appcenter-analytics": "1.12.0",
+    "appcenter-crashes": "1.12.0",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "google-polyline": "^1.0.3",
+    "isomorphic-fetch": "^2.2.1",
+    "jest-matcher-deep-close-to": "^1.3.0",
+    "lint": "^1.1.2",
+    "react": "16.6.3",
+    "react-native": "^0.58.5",
+    "react-native-action-button": "^2.8.5",
+    "react-native-gesture-handler": "^1.0.16",
+    "react-native-maps": "^0.23.0",
+    "react-native-popup-dialog": "^0.18.2",
+    "react-native-side-menu": "^1.1.3",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.3.2",
+    "rn-sliding-up-panel": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "babel-preset-react-native": "5.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-google": "^0.12.0",
+    "file-system": "^2.2.2",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "jest": "^24.1.0",
+    "jest-junit": "^6.2.1",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-native-jest-mocks": "^1.4.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!react-native)/.+"
+    ],
+    "setupFiles": [
+      "./jest-setup.js"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": "off",
+      "require-jsdoc": "off",
+      "valid-jsdoc": "off",
+      "no-unused-vars": "off",
+      "max-len": "off",
+      "prefer-const": "off"
+    },
+    "extends": "google",
+    "env": {
+      "es6": true
+    }
+  }
+}

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.0" creator="openrouteservice" xmlns="https://raw.githubusercontent.com/GIScience/openrouteservice-schema/master/gpx/v2/ors-gpx.xsd">
+    <metadata>
+        <name>openrouteservice directions</name>
+        <desc>This is a directions instructions file as GPX, generated from openrouteservice</desc>
+        <author>
+            <name>openrouteservice</name>
+            <email id="support" domain="@openrouteservice.org"/>
+            <link href="https://openrouteservice.org/">
+                <text>https://openrouteservice.org/</text>
+                <type>text/html</type>
+            </link>
+        </author>
+        <copyright author="openrouteservice.org | OpenStreetMap contributors">
+            <year>2019Z</year>
+            <license>LGPL 3.0</license>
+        </copyright>
+        <time>2019-04-15T22:47:41.099Z</time>
+        <bounds minlat="41.878432912009664" minlon="-87.6278716661103" maxlat="41.8835782890591" maxlon="-87.6239589646033"/>
+    </metadata>
+    <rte>
+        <rtept lat="41.8835782890591" lon="-87.6278716661103">
+            <name>North State Street</name>
+            <desc>Head south on North State Street</desc>
+            <extensions>
+                <distance>31.9</distance>
+                <duration>23.0</duration>
+                <type>11</type>
+                <step>0</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88337419666441" lon="-87.62786472502049">
+            <name>North State Street</name>
+            <desc>Head south on North State Street</desc>
+            <extensions>
+                <distance>31.9</distance>
+                <duration>23.0</duration>
+                <type>11</type>
+                <step>1</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88332017995388" lon="-87.62786304863981">
+            <name>North State Street</name>
+            <desc>Head south on North State Street</desc>
+            <extensions>
+                <distance>31.9</distance>
+                <duration>23.0</duration>
+                <type>11</type>
+                <step>2</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.8833233464507" lon="-87.62768181326274">
+            <name></name>
+            <desc>Turn left</desc>
+            <extensions>
+                <distance>22.8</distance>
+                <duration>16.4</duration>
+                <type>0</type>
+                <step>3</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88325349725604" lon="-87.62768218579178">
+            <name></name>
+            <desc>Turn left</desc>
+            <extensions>
+                <distance>22.8</distance>
+                <duration>16.4</duration>
+                <type>0</type>
+                <step>4</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88325461484316" lon="-87.62710457951809">
+            <name>East Washington Street</name>
+            <desc>Turn left onto East Washington Street</desc>
+            <extensions>
+                <distance>110.0</distance>
+                <duration>79.2</duration>
+                <type>0</type>
+                <step>5</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.8832549873722" lon="-87.62698388010972">
+            <name>East Washington Street</name>
+            <desc>Turn left onto East Washington Street</desc>
+            <extensions>
+                <distance>110.0</distance>
+                <duration>79.2</duration>
+                <type>0</type>
+                <step>6</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88325573243027" lon="-87.62661507636193">
+            <name>East Washington Street</name>
+            <desc>Turn left onto East Washington Street</desc>
+            <extensions>
+                <distance>110.0</distance>
+                <duration>79.2</duration>
+                <type>0</type>
+                <step>7</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88325647748835" lon="-87.62651449352163">
+            <name>East Washington Street</name>
+            <desc>Turn left onto East Washington Street</desc>
+            <extensions>
+                <distance>110.0</distance>
+                <duration>79.2</duration>
+                <type>0</type>
+                <step>8</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.883257222546426" lon="-87.62635356097714">
+            <name>East Washington Street</name>
+            <desc>Turn left onto East Washington Street</desc>
+            <extensions>
+                <distance>110.0</distance>
+                <duration>79.2</duration>
+                <type>0</type>
+                <step>9</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88313335664123" lon="-87.62635039448031">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>153.1</distance>
+                <duration>110.2</duration>
+                <type>1</type>
+                <step>10</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.8831242296798" lon="-87.62620548068446">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>153.1</distance>
+                <duration>110.2</duration>
+                <type>1</type>
+                <step>11</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88312646485403" lon="-87.62604845969487">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>153.1</distance>
+                <duration>110.2</duration>
+                <type>1</type>
+                <step>12</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.883131121467" lon="-87.62535704580003">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>153.1</distance>
+                <duration>110.2</duration>
+                <type>1</type>
+                <step>13</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88313335664123" lon="-87.62466805334392">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>153.1</distance>
+                <duration>110.2</duration>
+                <type>1</type>
+                <step>14</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88219886754898" lon="-87.62461440916243">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>15</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.882095304476366" lon="-87.62461887951089">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>16</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88204464052718" lon="-87.62461738939473">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>17</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88134931507742" lon="-87.62458721454264">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>18</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88130572917996" lon="-87.62453971709027">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>19</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88102186205287" lon="-87.62453655059345">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>20</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.880921279212565" lon="-87.62458814586523">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>21</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.880829450804654" lon="-87.62458702827811">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>22</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.8807517785002" lon="-87.62458497936841">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>23</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87963251500501" lon="-87.6245654215939">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>24</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.8795641559265" lon="-87.62456449027131">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>399.2</distance>
+                <duration>287.5</duration>
+                <type>1</type>
+                <step>25</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87956732242333" lon="-87.6244268407917">
+            <name>East Adams Street</name>
+            <desc>Turn left onto East Adams Street</desc>
+            <extensions>
+                <distance>11.4</distance>
+                <duration>8.2</duration>
+                <type>0</type>
+                <step>26</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87937602876222" lon="-87.62442274297229">
+            <name>South Michigan Avenue</name>
+            <desc>Turn right onto South Michigan Avenue</desc>
+            <extensions>
+                <distance>21.3</distance>
+                <duration>15.3</duration>
+                <type>1</type>
+                <step>27</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87894464013602" lon="-87.6244121258947">
+            <name>South Michigan Avenue</name>
+            <desc>Keep right onto South Michigan Avenue</desc>
+            <extensions>
+                <distance>56.4</distance>
+                <duration>40.6</duration>
+                <type>13</type>
+                <step>28</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87886845794771" lon="-87.6244102632495">
+            <name>South Michigan Avenue</name>
+            <desc>Keep right onto South Michigan Avenue</desc>
+            <extensions>
+                <distance>56.4</distance>
+                <duration>40.6</duration>
+                <type>13</type>
+                <step>29</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87886845794771" lon="-87.62449557239925">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>18.0</distance>
+                <duration>12.9</duration>
+                <type>1</type>
+                <step>30</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87885262546359" lon="-87.62449594492828">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>18.0</distance>
+                <duration>12.9</duration>
+                <type>1</type>
+                <step>31</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.878811088475835" lon="-87.62449575866377">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>18.0</distance>
+                <duration>12.9</duration>
+                <type>1</type>
+                <step>32</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87877048281067" lon="-87.62449464107665">
+            <name></name>
+            <desc>Turn right</desc>
+            <extensions>
+                <distance>18.0</distance>
+                <duration>12.9</duration>
+                <type>1</type>
+                <step>33</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.878770110281636" lon="-87.6244648387536">
+            <name></name>
+            <desc>Turn left</desc>
+            <extensions>
+                <distance>10.0</distance>
+                <duration>7.2</duration>
+                <type>0</type>
+                <step>34</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87877048281067" lon="-87.62445943708255">
+            <name></name>
+            <desc>Turn left</desc>
+            <extensions>
+                <distance>10.0</distance>
+                <duration>7.2</duration>
+                <type>0</type>
+                <step>35</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.878706594080626" lon="-87.62445869202448">
+            <name></name>
+            <desc>Turn left</desc>
+            <extensions>
+                <distance>10.0</distance>
+                <duration>7.2</duration>
+                <type>0</type>
+                <step>36</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87870771166774" lon="-87.62430819029305">
+            <name>Pedway</name>
+            <desc>Turn left onto Pedway</desc>
+            <extensions>
+                <distance>72.1</distance>
+                <duration>51.9</duration>
+                <type>0</type>
+                <step>37</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.878434647882756" lon="-87.62430707270593">
+            <name>Pedway</name>
+            <desc>Turn left onto Pedway</desc>
+            <extensions>
+                <distance>72.1</distance>
+                <duration>51.9</duration>
+                <type>0</type>
+                <step>38</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.87843669679247" lon="-87.62403158748221">
+            <name>Pedway</name>
+            <desc>Turn left onto Pedway</desc>
+            <extensions>
+                <distance>72.1</distance>
+                <duration>51.9</duration>
+                <type>0</type>
+                <step>39</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.878437441850544" lon="-87.62395968937784">
+            <name>Pedway</name>
+            <desc>Turn left onto Pedway</desc>
+            <extensions>
+                <distance>72.1</distance>
+                <duration>51.9</duration>
+                <type>0</type>
+                <step>40</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.878432912009664" lon="-87.6239589646033">
+            <name>Pedway</name>
+            <desc>Turn left onto Pedway</desc>
+            <extensions>
+                <distance>72.1</distance>
+                <duration>51.9</duration>
+                <type>0</type>
+                <step>41</step>
+            </extensions>
+        </rtept>
+        <extensions>
+            <distance>906.2</distance>
+            <duration>652.5</duration>
+            <distanceActual>0.0</distanceActual>
+            <ascent>0.0</ascent>
+            <descent>0.0</descent>
+            <avgSpeed>5.0</avgSpeed>
+            <bounds minlat="41.878432912009664" minlon="-87.6278716661103" maxlat="41.8835782890591" maxlon="-87.6239589646033"/>
+        </extensions>
+    </rte>
+    <extensions>
+        <attribution>openrouteservice.org | OpenStreetMap contributors</attribution>
+        <engine>5.0</engine>
+        <build_date>2019-03-13T16:21:40Z</build_date>
+        <profile></profile>
+        <preference>driving-car</preference>
+        <language>en</language>
+        <distance-units>Meters</distance-units>
+        <instructions>true</instructions>
+        <elevation>false</elevation>
+    </extensions>
+</gpx>

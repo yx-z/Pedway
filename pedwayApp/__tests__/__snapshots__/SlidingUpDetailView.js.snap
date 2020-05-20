@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check if our SlidingUpDetailView renders correctly 1`] = `
+<SlidingUpPanel
+  draggableRange={
+    Object {
+      "bottom": 0,
+      "top": 150,
+    }
+  }
+  showBackdrop={false}
+/>
+`;

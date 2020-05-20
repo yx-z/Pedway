@@ -1,0 +1,262 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "M Burger",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 6:30am - 6:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.631727,
+          41.885442
+        ]
+      },
+      "id": "M Burger"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Pita Express",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 8:00am - 3:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.631727,
+          41.885443
+        ]
+      },
+      "id": "Pita Express"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Big Easy",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 7:00am - 2:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.630065,
+          41.881911
+        ]
+      },
+      "id": "Big Easy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Tortas Frontera",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 7:00am - 2:00pm"
+
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.630065,
+          41.881912
+        ]
+      },
+      "id": "Tortas Frontera"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Caffe RoM",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 6:30am - 4:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.622715,
+          41.885665
+        ]
+      },
+      "id": "Caffe RoM"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Snarf's",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 7:00am - 3:30pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.622715,
+          41.885666
+        ]
+      },
+      "id": "Snarf's"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Which Wich",
+        "attraction": "yes",
+        "hours": "Hours Open: Sun - Sat 5:00am - 8:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.628262,
+          41.883764
+        ]
+      },
+      "id": "Which Wich"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Hannah's Bretzel",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 7:00am - 3:30pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.623756,
+          41.886832
+        ]
+      },
+      "id": "Hannah's Bretzel"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Potbelly",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 6:30am - 7:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.623541,
+          41.887926
+        ]
+      },
+      "id": "Potbelly"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Armand's Pizzeria",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 10:00am - 5:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624131,
+          41.885098
+        ]
+      },
+      "id": "Armand's Pizzeria"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Mezza Mediterranean Grill",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 7:00am - 6:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624099,
+          41.886672
+        ]
+      },
+      "id": "Mezza Mediterranean Grill"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Pret a Manger",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 6:00am - 7:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.624099,
+          41.886673
+        ]
+      },
+      "id": "Pret a Manger"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Olive Mediterranean Grill",
+        "attraction": "yes",
+        "hours": "Hours Open: Sun - Sat 10:30am - 9:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.630376,
+          41.886312
+        ]
+      },
+      "id": "Olive Mediterranean Grill"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Protein Bar",
+        "attraction": "yes",
+        "hours": "Hours Open: Sun - Sat 7:00am - 8:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.630934,
+          41.886001
+        ]
+      },
+      "id": "Protein Bar"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Wow Bao",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 7:00am - 6:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.628477,
+          41.886496
+        ]
+      },
+      "id": "Wow Bao"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "Starbucks",
+        "attraction": "yes",
+        "hours": "Hours Open: Mon - Fri 7:00am - 6:00pm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.631685,
+          41.88386
+        ]
+      },
+      "id": "Starbucks"
+    }
+  ]
+}

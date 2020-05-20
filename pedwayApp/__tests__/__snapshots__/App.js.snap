@@ -1,0 +1,2444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check if our GroundMapView renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 60,
+        "elevation": 6,
+        "height": 40,
+        "opacity": 0.95,
+        "position": "absolute",
+        "right": 20,
+        "shadowColor": "rgba(0, 0, 0, 0.6)",
+        "shadowOffset": Object {
+          "height": 30,
+          "width": 30,
+        },
+        "shadowOpacity": 0.8,
+        "shadowRadius": 15,
+        "textAlignVertical": "center",
+        "top": 160,
+        "width": 40,
+        "zIndex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexGrow": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#555",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "FontAwesome",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <MapView
+    customMapStyle={null}
+    initialRegion={
+      Object {
+        "latitude": 41.881898,
+        "latitudeDelta": 0.005,
+        "longitude": -87.623977,
+        "longitudeDelta": 0.005,
+      }
+    }
+    onPanDrag={[Function]}
+    onRegionChangeComplete={[Function]}
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": -1,
+      }
+    }
+  >
+    <View>
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.885442,
+            "longitude": -87.631727,
+          }
+        }
+        description="Hours Open: Mon - Fri 6:30am - 6:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="M Burger"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.885443,
+            "longitude": -87.631727,
+          }
+        }
+        description="Hours Open: Mon - Fri 8:00am - 3:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Pita Express"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.881911,
+            "longitude": -87.630065,
+          }
+        }
+        description="Hours Open: Mon - Fri 7:00am - 2:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Big Easy"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.881912,
+            "longitude": -87.630065,
+          }
+        }
+        description="Hours Open: Mon - Fri 7:00am - 2:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Tortas Frontera"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.885665,
+            "longitude": -87.622715,
+          }
+        }
+        description="Hours Open: Mon - Fri 6:30am - 4:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Caffe RoM"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.885666,
+            "longitude": -87.622715,
+          }
+        }
+        description="Hours Open: Mon - Fri 7:00am - 3:30pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Snarf's"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.883764,
+            "longitude": -87.628262,
+          }
+        }
+        description="Hours Open: Sun - Sat 5:00am - 8:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Which Wich"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.886832,
+            "longitude": -87.623756,
+          }
+        }
+        description="Hours Open: Mon - Fri 7:00am - 3:30pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Hannah's Bretzel"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.887926,
+            "longitude": -87.623541,
+          }
+        }
+        description="Hours Open: Mon - Fri 6:30am - 7:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Potbelly"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.885098,
+            "longitude": -87.624131,
+          }
+        }
+        description="Hours Open: Mon - Fri 10:00am - 5:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Armand's Pizzeria"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.886672,
+            "longitude": -87.624099,
+          }
+        }
+        description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Mezza Mediterranean Grill"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.886673,
+            "longitude": -87.624099,
+          }
+        }
+        description="Hours Open: Mon - Fri 6:00am - 7:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Pret a Manger"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.886312,
+            "longitude": -87.630376,
+          }
+        }
+        description="Hours Open: Sun - Sat 10:30am - 9:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Olive Mediterranean Grill"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.886001,
+            "longitude": -87.630934,
+          }
+        }
+        description="Hours Open: Sun - Sat 7:00am - 8:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Protein Bar"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.886496,
+            "longitude": -87.628477,
+          }
+        }
+        description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Wow Bao"
+      />
+      <Marker
+        coordinate={
+          Object {
+            "latitude": 41.88386,
+            "longitude": -87.631685,
+          }
+        }
+        description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+        onPress={[Function]}
+        pinColor="green"
+        title="Starbucks"
+      />
+    </View>
+    <Marker
+      coordinate={
+        Object {
+          "latitude": 41.881898,
+          "longitude": -87.623977,
+        }
+      }
+      style={
+        Object {
+          "zIndex": 10,
+        }
+      }
+      title="You"
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../media/pedwayEntranceMarker.png",
+          }
+        }
+        style={
+          Object {
+            "height": 25,
+            "width": 25,
+          }
+        }
+      />
+    </Marker>
+  </MapView>
+</View>
+`;
+
+exports[`Check if our HomeScreen renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    enabled={false}
+    hitSlop={
+      Object {
+        "right": 50,
+      }
+    }
+    maxDeltaY={20}
+    minOffsetX={5}
+    onGestureEvent={[Function]}
+    onHandlerStateChange={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#eee",
+          "flex": 1,
+          "flexDirection": "column-reverse",
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          pointerEvents="auto"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 0,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            accessibilityElementsHidden={false}
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={
+                Object {
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "right": 250,
+                    },
+                  ]
+                }
+              />
+              <View
+                onMoveShouldSetResponder={[Function]}
+                onMoveShouldSetResponderCapture={[Function]}
+                onResponderEnd={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderReject={[Function]}
+                onResponderRelease={[Function]}
+                onResponderStart={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                onStartShouldSetResponderCapture={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "flex": 1,
+                    "height": 1334,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                    "width": 750,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "zIndex": 0,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      isTVSelectable={true}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FFFFFF",
+                          "borderRadius": 60,
+                          "elevation": 6,
+                          "height": 40,
+                          "opacity": 0.95,
+                          "position": "absolute",
+                          "right": 20,
+                          "shadowColor": "rgba(0, 0, 0, 0.6)",
+                          "shadowOffset": Object {
+                            "height": 30,
+                            "width": 30,
+                          },
+                          "shadowOpacity": 0.8,
+                          "shadowRadius": 15,
+                          "textAlignVertical": "center",
+                          "top": 160,
+                          "width": 40,
+                          "zIndex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexGrow": 1,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#555",
+                                "fontSize": 20,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "FontAwesome",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                    <MapView
+                      customMapStyle={null}
+                      initialRegion={
+                        Object {
+                          "latitude": 41.881898,
+                          "latitudeDelta": 0.005,
+                          "longitude": -87.623977,
+                          "longitudeDelta": 0.005,
+                        }
+                      }
+                      onPanDrag={[Function]}
+                      onRegionChangeComplete={[Function]}
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "zIndex": -1,
+                        }
+                      }
+                    >
+                      <View>
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885442,
+                              "longitude": -87.631727,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:30am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="M Burger"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885443,
+                              "longitude": -87.631727,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 8:00am - 3:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Pita Express"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.881911,
+                              "longitude": -87.630065,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 2:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Big Easy"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.881912,
+                              "longitude": -87.630065,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 2:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Tortas Frontera"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885665,
+                              "longitude": -87.622715,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:30am - 4:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Caffe RoM"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885666,
+                              "longitude": -87.622715,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 3:30pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Snarf's"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.883764,
+                              "longitude": -87.628262,
+                            }
+                          }
+                          description="Hours Open: Sun - Sat 5:00am - 8:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Which Wich"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886832,
+                              "longitude": -87.623756,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 3:30pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Hannah's Bretzel"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.887926,
+                              "longitude": -87.623541,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:30am - 7:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Potbelly"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885098,
+                              "longitude": -87.624131,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 10:00am - 5:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Armand's Pizzeria"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886672,
+                              "longitude": -87.624099,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Mezza Mediterranean Grill"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886673,
+                              "longitude": -87.624099,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:00am - 7:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Pret a Manger"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886312,
+                              "longitude": -87.630376,
+                            }
+                          }
+                          description="Hours Open: Sun - Sat 10:30am - 9:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Olive Mediterranean Grill"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886001,
+                              "longitude": -87.630934,
+                            }
+                          }
+                          description="Hours Open: Sun - Sat 7:00am - 8:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Protein Bar"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886496,
+                              "longitude": -87.628477,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Wow Bao"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.88386,
+                              "longitude": -87.631685,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Starbucks"
+                        />
+                      </View>
+                      <Marker
+                        coordinate={
+                          Object {
+                            "latitude": 41.881898,
+                            "longitude": -87.623977,
+                          }
+                        }
+                        style={
+                          Object {
+                            "zIndex": 10,
+                          }
+                        }
+                        title="You"
+                      >
+                        <Image
+                          source={
+                            Object {
+                              "testUri": "../../../media/pedwayEntranceMarker.png",
+                            }
+                          }
+                          style={
+                            Object {
+                              "height": 25,
+                              "width": 25,
+                            }
+                          }
+                        />
+                      </Marker>
+                    </MapView>
+                  </View>
+                  <SlidingUpPanel
+                    draggableRange={
+                      Object {
+                        "bottom": 0,
+                        "top": 150,
+                      }
+                    }
+                    showBackdrop={false}
+                  />
+                  <View
+                    accessible={true}
+                    isTVSelectable={true}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderRadius": 10,
+                        "color": "#CCCCCC",
+                        "elevation": 6,
+                        "height": 50,
+                        "marginLeft": 20,
+                        "opacity": 0.95,
+                        "position": "absolute",
+                        "shadowColor": "rgba(0, 0, 0, 0.6)",
+                        "shadowOffset": Object {
+                          "height": 30,
+                          "width": 30,
+                        },
+                        "shadowOpacity": 0.8,
+                        "shadowRadius": 15,
+                        "textAlignVertical": "center",
+                        "top": 25,
+                        "width": 380,
+                        "zIndex": -1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <TextInput
+                        allowFontScaling={true}
+                        numberOfLines={1}
+                        onChangeText={[Function]}
+                        onSubmitEditing={[Function]}
+                        placeholder="Enter your destination..."
+                        style={
+                          Object {
+                            "flex": 1,
+                            "fontSize": 18,
+                            "marginLeft": 80,
+                            "marginRight": 20,
+                            "paddingTop": 12,
+                            "textAlign": "left",
+                          }
+                        }
+                        underlineColorAndroid="transparent"
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    isTVSelectable={true}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderRadius": 60,
+                        "elevation": 6,
+                        "height": 40,
+                        "opacity": 0.95,
+                        "position": "absolute",
+                        "right": 20,
+                        "shadowColor": "rgba(0, 0, 0, 0.6)",
+                        "shadowOffset": Object {
+                          "height": 30,
+                          "width": 30,
+                        },
+                        "shadowOpacity": 0.8,
+                        "shadowRadius": 15,
+                        "textAlignVertical": "center",
+                        "top": 100,
+                        "width": 40,
+                        "zIndex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flexGrow": 1,
+                          "justifyContent": "center",
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#555",
+                              "fontSize": 20,
+                            },
+                            undefined,
+                            Object {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "rgba(0,0,0,0.0)",
+                      "height": 60,
+                      "left": 20,
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 20,
+                      "width": 60,
+                      "zIndex": 2,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexGrow": 1,
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#555",
+                            "fontSize": 30,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "FontAwesome",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "transform": Array [
+                Object {
+                  "translateX": -750,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            onLayout={[Function]}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "backgroundColor": "#FFF",
+                "borderBottomColor": "#A7A7AA",
+                "borderBottomWidth": 0.5,
+                "height": 64,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Check if our MainView renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    enabled={false}
+    hitSlop={
+      Object {
+        "right": 50,
+      }
+    }
+    maxDeltaY={20}
+    minOffsetX={5}
+    onGestureEvent={[Function]}
+    onHandlerStateChange={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#eee",
+          "flex": 1,
+          "flexDirection": "column-reverse",
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          pointerEvents="auto"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 0,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            accessibilityElementsHidden={false}
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={
+                Object {
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "right": 250,
+                    },
+                  ]
+                }
+              />
+              <View
+                onMoveShouldSetResponder={[Function]}
+                onMoveShouldSetResponderCapture={[Function]}
+                onResponderEnd={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderReject={[Function]}
+                onResponderRelease={[Function]}
+                onResponderStart={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                onStartShouldSetResponderCapture={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "flex": 1,
+                    "height": 1334,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                    "width": 750,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "zIndex": 0,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      isTVSelectable={true}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FFFFFF",
+                          "borderRadius": 60,
+                          "elevation": 6,
+                          "height": 40,
+                          "opacity": 0.95,
+                          "position": "absolute",
+                          "right": 20,
+                          "shadowColor": "rgba(0, 0, 0, 0.6)",
+                          "shadowOffset": Object {
+                            "height": 30,
+                            "width": 30,
+                          },
+                          "shadowOpacity": 0.8,
+                          "shadowRadius": 15,
+                          "textAlignVertical": "center",
+                          "top": 160,
+                          "width": 40,
+                          "zIndex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexGrow": 1,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#555",
+                                "fontSize": 20,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "FontAwesome",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                    <MapView
+                      customMapStyle={null}
+                      initialRegion={
+                        Object {
+                          "latitude": 41.881898,
+                          "latitudeDelta": 0.005,
+                          "longitude": -87.623977,
+                          "longitudeDelta": 0.005,
+                        }
+                      }
+                      onPanDrag={[Function]}
+                      onRegionChangeComplete={[Function]}
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "zIndex": -1,
+                        }
+                      }
+                    >
+                      <View>
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885442,
+                              "longitude": -87.631727,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:30am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="M Burger"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885443,
+                              "longitude": -87.631727,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 8:00am - 3:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Pita Express"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.881911,
+                              "longitude": -87.630065,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 2:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Big Easy"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.881912,
+                              "longitude": -87.630065,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 2:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Tortas Frontera"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885665,
+                              "longitude": -87.622715,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:30am - 4:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Caffe RoM"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885666,
+                              "longitude": -87.622715,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 3:30pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Snarf's"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.883764,
+                              "longitude": -87.628262,
+                            }
+                          }
+                          description="Hours Open: Sun - Sat 5:00am - 8:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Which Wich"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886832,
+                              "longitude": -87.623756,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 3:30pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Hannah's Bretzel"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.887926,
+                              "longitude": -87.623541,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:30am - 7:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Potbelly"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885098,
+                              "longitude": -87.624131,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 10:00am - 5:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Armand's Pizzeria"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886672,
+                              "longitude": -87.624099,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Mezza Mediterranean Grill"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886673,
+                              "longitude": -87.624099,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:00am - 7:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Pret a Manger"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886312,
+                              "longitude": -87.630376,
+                            }
+                          }
+                          description="Hours Open: Sun - Sat 10:30am - 9:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Olive Mediterranean Grill"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886001,
+                              "longitude": -87.630934,
+                            }
+                          }
+                          description="Hours Open: Sun - Sat 7:00am - 8:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Protein Bar"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886496,
+                              "longitude": -87.628477,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Wow Bao"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.88386,
+                              "longitude": -87.631685,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Starbucks"
+                        />
+                      </View>
+                      <Marker
+                        coordinate={
+                          Object {
+                            "latitude": 41.881898,
+                            "longitude": -87.623977,
+                          }
+                        }
+                        style={
+                          Object {
+                            "zIndex": 10,
+                          }
+                        }
+                        title="You"
+                      >
+                        <Image
+                          source={
+                            Object {
+                              "testUri": "../../../media/pedwayEntranceMarker.png",
+                            }
+                          }
+                          style={
+                            Object {
+                              "height": 25,
+                              "width": 25,
+                            }
+                          }
+                        />
+                      </Marker>
+                    </MapView>
+                  </View>
+                  <SlidingUpPanel
+                    draggableRange={
+                      Object {
+                        "bottom": 0,
+                        "top": 150,
+                      }
+                    }
+                    showBackdrop={false}
+                  />
+                  <View
+                    accessible={true}
+                    isTVSelectable={true}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderRadius": 10,
+                        "color": "#CCCCCC",
+                        "elevation": 6,
+                        "height": 50,
+                        "marginLeft": 20,
+                        "opacity": 0.95,
+                        "position": "absolute",
+                        "shadowColor": "rgba(0, 0, 0, 0.6)",
+                        "shadowOffset": Object {
+                          "height": 30,
+                          "width": 30,
+                        },
+                        "shadowOpacity": 0.8,
+                        "shadowRadius": 15,
+                        "textAlignVertical": "center",
+                        "top": 25,
+                        "width": 380,
+                        "zIndex": -1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <TextInput
+                        allowFontScaling={true}
+                        numberOfLines={1}
+                        onChangeText={[Function]}
+                        onSubmitEditing={[Function]}
+                        placeholder="Enter your destination..."
+                        style={
+                          Object {
+                            "flex": 1,
+                            "fontSize": 18,
+                            "marginLeft": 80,
+                            "marginRight": 20,
+                            "paddingTop": 12,
+                            "textAlign": "left",
+                          }
+                        }
+                        underlineColorAndroid="transparent"
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    isTVSelectable={true}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderRadius": 60,
+                        "elevation": 6,
+                        "height": 40,
+                        "opacity": 0.95,
+                        "position": "absolute",
+                        "right": 20,
+                        "shadowColor": "rgba(0, 0, 0, 0.6)",
+                        "shadowOffset": Object {
+                          "height": 30,
+                          "width": 30,
+                        },
+                        "shadowOpacity": 0.8,
+                        "shadowRadius": 15,
+                        "textAlignVertical": "center",
+                        "top": 100,
+                        "width": 40,
+                        "zIndex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flexGrow": 1,
+                          "justifyContent": "center",
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#555",
+                              "fontSize": 20,
+                            },
+                            undefined,
+                            Object {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "rgba(0,0,0,0.0)",
+                      "height": 60,
+                      "left": 20,
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 20,
+                      "width": 60,
+                      "zIndex": 2,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexGrow": 1,
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#555",
+                            "fontSize": 30,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "FontAwesome",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "transform": Array [
+                Object {
+                  "translateX": -750,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            onLayout={[Function]}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "backgroundColor": "#FFF",
+                "borderBottomColor": "#A7A7AA",
+                "borderBottomWidth": 0.5,
+                "height": 64,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Check if our main app renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    enabled={false}
+    hitSlop={
+      Object {
+        "right": 50,
+      }
+    }
+    maxDeltaY={20}
+    minOffsetX={5}
+    onGestureEvent={[Function]}
+    onHandlerStateChange={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#eee",
+          "flex": 1,
+          "flexDirection": "column-reverse",
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          pointerEvents="auto"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 0,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            accessibilityElementsHidden={false}
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              onLayout={[Function]}
+              style={
+                Object {
+                  "bottom": 0,
+                  "justifyContent": "center",
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "right": 250,
+                    },
+                  ]
+                }
+              />
+              <View
+                onMoveShouldSetResponder={[Function]}
+                onMoveShouldSetResponderCapture={[Function]}
+                onResponderEnd={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderReject={[Function]}
+                onResponderRelease={[Function]}
+                onResponderStart={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                onStartShouldSetResponderCapture={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "flex": 1,
+                    "height": 1334,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "top": 0,
+                    "transform": Array [
+                      Object {
+                        "translateX": 0,
+                      },
+                    ],
+                    "width": 750,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "zIndex": 0,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  >
+                    <View
+                      accessible={true}
+                      isTVSelectable={true}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#FFFFFF",
+                          "borderRadius": 60,
+                          "elevation": 6,
+                          "height": 40,
+                          "opacity": 0.95,
+                          "position": "absolute",
+                          "right": 20,
+                          "shadowColor": "rgba(0, 0, 0, 0.6)",
+                          "shadowOffset": Object {
+                            "height": 30,
+                            "width": 30,
+                          },
+                          "shadowOpacity": 0.8,
+                          "shadowRadius": 15,
+                          "textAlignVertical": "center",
+                          "top": 160,
+                          "width": 40,
+                          "zIndex": 1,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "flexGrow": 1,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <Text
+                          allowFontScaling={false}
+                          style={
+                            Array [
+                              Object {
+                                "color": "#555",
+                                "fontSize": 20,
+                              },
+                              undefined,
+                              Object {
+                                "fontFamily": "FontAwesome",
+                                "fontStyle": "normal",
+                                "fontWeight": "normal",
+                              },
+                              Object {},
+                            ]
+                          }
+                        >
+                          
+                        </Text>
+                      </View>
+                    </View>
+                    <MapView
+                      customMapStyle={null}
+                      initialRegion={
+                        Object {
+                          "latitude": 41.881898,
+                          "latitudeDelta": 0.005,
+                          "longitude": -87.623977,
+                          "longitudeDelta": 0.005,
+                        }
+                      }
+                      onPanDrag={[Function]}
+                      onRegionChangeComplete={[Function]}
+                      style={
+                        Object {
+                          "bottom": 0,
+                          "left": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "zIndex": -1,
+                        }
+                      }
+                    >
+                      <View>
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885442,
+                              "longitude": -87.631727,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:30am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="M Burger"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885443,
+                              "longitude": -87.631727,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 8:00am - 3:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Pita Express"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.881911,
+                              "longitude": -87.630065,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 2:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Big Easy"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.881912,
+                              "longitude": -87.630065,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 2:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Tortas Frontera"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885665,
+                              "longitude": -87.622715,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:30am - 4:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Caffe RoM"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885666,
+                              "longitude": -87.622715,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 3:30pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Snarf's"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.883764,
+                              "longitude": -87.628262,
+                            }
+                          }
+                          description="Hours Open: Sun - Sat 5:00am - 8:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Which Wich"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886832,
+                              "longitude": -87.623756,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 3:30pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Hannah's Bretzel"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.887926,
+                              "longitude": -87.623541,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:30am - 7:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Potbelly"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.885098,
+                              "longitude": -87.624131,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 10:00am - 5:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Armand's Pizzeria"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886672,
+                              "longitude": -87.624099,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Mezza Mediterranean Grill"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886673,
+                              "longitude": -87.624099,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 6:00am - 7:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Pret a Manger"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886312,
+                              "longitude": -87.630376,
+                            }
+                          }
+                          description="Hours Open: Sun - Sat 10:30am - 9:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Olive Mediterranean Grill"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886001,
+                              "longitude": -87.630934,
+                            }
+                          }
+                          description="Hours Open: Sun - Sat 7:00am - 8:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Protein Bar"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.886496,
+                              "longitude": -87.628477,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Wow Bao"
+                        />
+                        <Marker
+                          coordinate={
+                            Object {
+                              "latitude": 41.88386,
+                              "longitude": -87.631685,
+                            }
+                          }
+                          description="Hours Open: Mon - Fri 7:00am - 6:00pm"
+                          onPress={[Function]}
+                          pinColor="green"
+                          title="Starbucks"
+                        />
+                      </View>
+                      <Marker
+                        coordinate={
+                          Object {
+                            "latitude": 41.881898,
+                            "longitude": -87.623977,
+                          }
+                        }
+                        style={
+                          Object {
+                            "zIndex": 10,
+                          }
+                        }
+                        title="You"
+                      >
+                        <Image
+                          source={
+                            Object {
+                              "testUri": "../../../media/pedwayEntranceMarker.png",
+                            }
+                          }
+                          style={
+                            Object {
+                              "height": 25,
+                              "width": 25,
+                            }
+                          }
+                        />
+                      </Marker>
+                    </MapView>
+                  </View>
+                  <SlidingUpPanel
+                    draggableRange={
+                      Object {
+                        "bottom": 0,
+                        "top": 150,
+                      }
+                    }
+                    showBackdrop={false}
+                  />
+                  <View
+                    accessible={true}
+                    isTVSelectable={true}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderRadius": 10,
+                        "color": "#CCCCCC",
+                        "elevation": 6,
+                        "height": 50,
+                        "marginLeft": 20,
+                        "opacity": 0.95,
+                        "position": "absolute",
+                        "shadowColor": "rgba(0, 0, 0, 0.6)",
+                        "shadowOffset": Object {
+                          "height": 30,
+                          "width": 30,
+                        },
+                        "shadowOpacity": 0.8,
+                        "shadowRadius": 15,
+                        "textAlignVertical": "center",
+                        "top": 25,
+                        "width": 380,
+                        "zIndex": -1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <TextInput
+                        allowFontScaling={true}
+                        numberOfLines={1}
+                        onChangeText={[Function]}
+                        onSubmitEditing={[Function]}
+                        placeholder="Enter your destination..."
+                        style={
+                          Object {
+                            "flex": 1,
+                            "fontSize": 18,
+                            "marginLeft": 80,
+                            "marginRight": 20,
+                            "paddingTop": 12,
+                            "textAlign": "left",
+                          }
+                        }
+                        underlineColorAndroid="transparent"
+                      />
+                    </View>
+                  </View>
+                  <View
+                    accessible={true}
+                    isTVSelectable={true}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderRadius": 60,
+                        "elevation": 6,
+                        "height": 40,
+                        "opacity": 0.95,
+                        "position": "absolute",
+                        "right": 20,
+                        "shadowColor": "rgba(0, 0, 0, 0.6)",
+                        "shadowOffset": Object {
+                          "height": 30,
+                          "width": 30,
+                        },
+                        "shadowOpacity": 0.8,
+                        "shadowRadius": 15,
+                        "textAlignVertical": "center",
+                        "top": 100,
+                        "width": 40,
+                        "zIndex": 1,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "flexGrow": 1,
+                          "justifyContent": "center",
+                        }
+                      }
+                    >
+                      <Text
+                        allowFontScaling={false}
+                        style={
+                          Array [
+                            Object {
+                              "color": "#555",
+                              "fontSize": 20,
+                            },
+                            undefined,
+                            Object {
+                              "fontFamily": "FontAwesome",
+                              "fontStyle": "normal",
+                              "fontWeight": "normal",
+                            },
+                            Object {},
+                          ]
+                        }
+                      >
+                        
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "rgba(0,0,0,0.0)",
+                      "height": 60,
+                      "left": 20,
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 20,
+                      "width": 60,
+                      "zIndex": 2,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flexGrow": 1,
+                        "justifyContent": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "color": "#555",
+                            "fontSize": 30,
+                          },
+                          undefined,
+                          Object {
+                            "fontFamily": "FontAwesome",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                          Object {},
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "transform": Array [
+                Object {
+                  "translateX": -750,
+                },
+              ],
+            }
+          }
+        >
+          <View
+            onLayout={[Function]}
+            pointerEvents="box-none"
+            style={
+              Object {
+                "backgroundColor": "#FFF",
+                "borderBottomColor": "#A7A7AA",
+                "borderBottomWidth": 0.5,
+                "height": 64,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 20,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

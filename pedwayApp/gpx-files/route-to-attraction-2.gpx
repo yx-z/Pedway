@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.0" creator="openrouteservice" xmlns="https://raw.githubusercontent.com/GIScience/openrouteservice-schema/master/gpx/v2/ors-gpx.xsd">
+    <metadata>
+        <name>openrouteservice directions</name>
+        <desc>This is a directions instructions file as GPX, generated from openrouteservice</desc>
+        <author>
+            <name>openrouteservice</name>
+            <email id="support" domain="@openrouteservice.org"/>
+            <link href="https://openrouteservice.org/">
+                <text>https://openrouteservice.org/</text>
+                <type>text/html</type>
+            </link>
+        </author>
+        <copyright author="openrouteservice.org | OpenStreetMap contributors">
+            <year>2019Z</year>
+            <license>LGPL 3.0</license>
+        </copyright>
+        <time>2019-04-16T03:08:31.331Z</time>
+        <bounds minlat="41.883836346596105" minlon="-87.6317792601536" maxlat="41.88545886916203" maxlon="-87.63132384340445"/>
+    </metadata>
+    <rte>
+        <rtept lat="41.883836346596105" lon="-87.63165898226086">
+            <name></name>
+            <desc>Head north</desc>
+            <extensions>
+                <distance>54.8</distance>
+                <duration>39.5</duration>
+                <type>11</type>
+                <step>0</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88388716914998" lon="-87.63165986459687">
+            <name></name>
+            <desc>Head north</desc>
+            <extensions>
+                <distance>54.8</distance>
+                <duration>39.5</duration>
+                <type>11</type>
+                <step>1</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88410714754702" lon="-87.63166321735821">
+            <name></name>
+            <desc>Head north</desc>
+            <extensions>
+                <distance>54.8</distance>
+                <duration>39.5</duration>
+                <type>11</type>
+                <step>2</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88432936111829" lon="-87.63166675638408">
+            <name></name>
+            <desc>Head north</desc>
+            <extensions>
+                <distance>54.8</distance>
+                <duration>39.5</duration>
+                <type>11</type>
+                <step>3</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88432768473761" lon="-87.63174722265632">
+            <name></name>
+            <desc>Turn left</desc>
+            <extensions>
+                <distance>13.2</distance>
+                <duration>9.5</duration>
+                <type>0</type>
+                <step>4</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88433345893771" lon="-87.6317792601536">
+            <name></name>
+            <desc>Turn left</desc>
+            <extensions>
+                <distance>13.2</distance>
+                <duration>9.5</duration>
+                <type>0</type>
+                <step>5</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.8843401644604" lon="-87.63173418413999">
+            <name></name>
+            <desc>Turn left</desc>
+            <extensions>
+                <distance>13.2</distance>
+                <duration>9.5</duration>
+                <type>0</type>
+                <step>6</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88439865151939" lon="-87.63173381161094">
+            <name>Pedway</name>
+            <desc>Turn left onto Pedway</desc>
+            <extensions>
+                <distance>59.5</distance>
+                <duration>42.9</duration>
+                <type>0</type>
+                <step>7</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.884535742205436" lon="-87.63169097077156">
+            <name>Pedway</name>
+            <desc>Turn left onto Pedway</desc>
+            <extensions>
+                <distance>59.5</distance>
+                <duration>42.9</duration>
+                <type>0</type>
+                <step>8</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88487176339787" lon="-87.63169991146847">
+            <name>Pedway</name>
+            <desc>Turn left onto Pedway</desc>
+            <extensions>
+                <distance>59.5</distance>
+                <duration>42.9</duration>
+                <type>0</type>
+                <step>9</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88488852720459" lon="-87.63157977085366">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>10</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.884921123495424" lon="-87.63149539302651">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>11</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88498128693509" lon="-87.63140766243802">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>12</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88505951803311" lon="-87.63134861658548">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>13</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88518636417061" lon="-87.63132384340445">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>14</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.885291789888406" lon="-87.63136165510181">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>15</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88537914794786" lon="-87.63144770930963">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>16</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88539758813525" lon="-87.63148309956826">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>17</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.8854283217809" lon="-87.63154233168532">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>18</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88543912512301" lon="-87.6315859175828">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>19</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.885453467490976" lon="-87.63164272826111">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>20</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88545886916203" lon="-87.63172226321076">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>21</step>
+            </extensions>
+        </rtept>
+        <rtept lat="41.88545791118681" lon="-87.63173023356458">
+            <name>Pedway</name>
+            <desc>Turn right onto Pedway</desc>
+            <extensions>
+                <distance>102.2</distance>
+                <duration>73.6</duration>
+                <type>1</type>
+                <step>22</step>
+            </extensions>
+        </rtept>
+        <extensions>
+            <distance>229.7</distance>
+            <duration>165.4</duration>
+            <distanceActual>0.0</distanceActual>
+            <ascent>0.0</ascent>
+            <descent>0.0</descent>
+            <avgSpeed>5.0</avgSpeed>
+            <bounds minlat="41.883836346596105" minlon="-87.6317792601536" maxlat="41.88545886916203" maxlon="-87.63132384340445"/>
+        </extensions>
+    </rte>
+    <extensions>
+        <attribution>openrouteservice.org | OpenStreetMap contributors</attribution>
+        <engine>5.0</engine>
+        <build_date>2019-03-13T16:21:40Z</build_date>
+        <profile></profile>
+        <preference>driving-car</preference>
+        <language>en</language>
+        <distance-units>Meters</distance-units>
+        <instructions>true</instructions>
+        <elevation>false</elevation>
+    </extensions>
+</gpx>
